@@ -85,10 +85,6 @@ app.get('/datidb', function(req, res){
   res.json(queryDatabase());
 });
 
-app.post('/translate', function(req, res){
-  //prendi dati e traduci, rimanda al frontend
-});
-
 
 app.listen(port, function(){
   console.log('Ok server: 3000');
