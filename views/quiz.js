@@ -163,23 +163,6 @@ $.get('/datidb', function(data){
       location.href = "/index.html";
   });
 
-  //bottone per tradurre frase
-  // let translate = document.querySelector('.translate');
-  // translate.addEventListener('click', function(){
-  //   fetch('/translate', {
-  //     method: 'POST',
-  //       headers: {
-  //           'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify({
-  //           currentQuestion,
-  //       }),
-  //   })
-  //       .then((res) => {
-  //           return res.json();
-  //       })
-  //       .then((data) => console.log(data));
-  //   });
 
 
   //incrementa lo score 
