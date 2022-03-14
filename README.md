@@ -18,7 +18,7 @@ Progetto Corso Cloud Computing UNISA magistrale informatica (cloud computing)
 ## Database Azure SQL
 - Ricercare nella barra di ricerca del portale di azure 'database sql' e crearne una nuova istanza.
 - Fornire i dettagli per gruppo di risorse, server e configurare il database con il servizio basic
-- Confermare
+- Confermare ed attendere la creazione dell'istanza
 - Selezionare l'istanza creata e recarsi in 'editor di query', inserendo i dati per effettuare l'accesso al db
 - Copiare l'intero contenuto del file 'frasi.txt' nella cartella 'resources' del progetto clonato ed incollare nel db eseguendo la query
 - Aprire il file 'server.js' del progetto clonato e modificare i campi contenuti in 'const config' inserendo username, password, server e nome del db scelti in fase di creazione dell'istanza del database
