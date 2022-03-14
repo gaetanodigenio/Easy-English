@@ -1,0 +1,221 @@
+body{
+    color:#fff;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(18, 93, 255);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+
+.choice-prefix{
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct{
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect{
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull{
+    height: 100%;
+    background: rgb(11, 223, 36);;
+    width: 0%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .choice-container{
+        min-width: 40rem;
+    }
+    
+}
+
+
+@keyframes pulse{
+	0%{
+		box-shadow: 0px 0px 5px 0px rgba(173,0,0,.3);
+	}
+	65%{
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,.3);
+	}
+	90%{
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,0);
+	}
+}
+
+.home {
+    width: 140px;
+	height: 60px;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.932);
+	border: 0;
+	margin: 190px 18px 18px 55px;
+	outline: none;
+    animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: 
+    infinite;
+	animation-timing-function: linear;
+    border-radius: 4px;
+}
+
+.home:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 2254, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.rec {
+    width: 140px;
+	height: 60px;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.932);
+	border: 0;
+	margin: 0 18px 18px 55px;
+	outline: none;
+    animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: 
+    infinite;
+	animation-timing-function: linear;
+    border-radius: 4px;
+}
+
+.rec:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 2254, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.next{
+    width: 140px;
+	height: 60px;
+	font-size: 20px;
+	background-color: rgb(15, 81, 224);
+    position: absolute;
+	border: 0;
+	margin: 190px 18px 18px 90px;
+	outline: none;
+    animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: 
+    infinite;
+	animation-timing-function: linear;
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+.next:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 2254, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#question {
+    margin: 70px auto 0 auto;
+}
+
+.verify {
+    width: 140px;
+	height: 60px;
+	font-size: 20px;
+	background-color: rgb(11, 223, 36);
+    position: relative;
+	border: 0;
+	margin: 145px auto 100px auto;
+	outline: none;
+    animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: 
+    infinite;
+	animation-timing-function: linear;
+    border-radius: 4px;
+    
+}
+
+.verify:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 2254, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.translate {
+    width: 140px;
+	height: 60px;
+	font-size: 20px;
+	background-color: rgb(11, 223, 36);
+    position: relative;
+	border: 0;
+	margin: 145px auto 100px auto;
+	outline: none;
+    animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: 
+    infinite;
+	animation-timing-function: linear;
+    border-radius: 4px;
+}
+
+.translate:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 2254, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#resoconto{
+    position:absolute;
+    margin: 0 auto 100px auto;
+    font-size: 20px;
+}
+

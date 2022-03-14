@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/62fadf90-1cf5-4bb0-a305-a56e5fc4f057/resourceGroups/easyenglish/providers/Microsoft.Web/sites/easyenglish"
+}

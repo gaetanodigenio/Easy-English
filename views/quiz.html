@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz EasyEnglish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix"></p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                
+                <button class="verify">Suggerimento</button>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Punteggio
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <div class = "domanda">
+                <h1 id="question">domanda</h1>
+            </div>
+            <div class="buttons">
+                <button class="home">Home</button>
+                <button class="rec">Registra</button>
+                <button class="next">Prossima</button>
+            </div>
+            
+            
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="quiz.js"></script>
+    <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+</body>
+</html>
