@@ -50,4 +50,5 @@ L'app è all'indirizzo 'localhost:80'
   
 ## In cloud
 La risorsa è all'indirizzo mostrato in 'servizio app/panoramica/URL' nel portale Azure
+Si consiglia l'utilizzo di browser Google Chrome o Mozilla Firefox.
   
