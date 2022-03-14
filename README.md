@@ -22,7 +22,7 @@ Progetto Corso Cloud Computing UNISA magistrale informatica (cloud computing)
 - Selezionare l'istanza creata e recarsi in 'editor di query', inserendo i dati per effettuare l'accesso al db
 - Al primo accesso si otterrà un errore che va risolto cambiando le regole del firewall. Copiare l'indirizzo IP mostrato nell'errore, selezionare 'Panoramica' dal menù sulla sinistra ed andare su 'Impostazioni firewall server', aggiungere una nuova regola inserendo come nome regola 'ip' ed incollando l'ip copiato in precedenza nei campi 'Indirizzo IP iniziale' ed 'Indirizzo IP finale'.
 - Copiare l'intero contenuto del file 'frasi.txt' nella cartella 'resources' del progetto clonato ed incollare nel db eseguendo la query
-- Aprire il file 'server.js' del progetto clonato e modificare i campi contenuti in 'const config' inserendo username, password, server e nome del db scelti in fase di creazione dell'istanza del database
+- Aprire il file 'server.js' del progetto clonato e modificare i campi contenuti in 'const config' inserendo username, password, server e nome del db scelti in fase di creazione dell'istanza del database. Il nome del server è possibile trovarlo in 'Panoramica' e 'Nome del server'.
 - Modificare le impostazioni firewall del SQL server in 'panoramica/impostazioni firewall del server' consentendo alle risorse e ai servizi di Azure di accedere a questo server (impostare SI)
 
 ## Azure app service
