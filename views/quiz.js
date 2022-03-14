@@ -11,8 +11,8 @@ let questionCounter = 0
 let availableQuestions = []
 
 // subscription key and region for speech services.
-const subscriptionKey = '3f51ccdd528d42e7b88919e3776e82e7';   //change me
-const serviceRegion = 'eastus';    //change me
+const subscriptionKey = '';   //change me
+const serviceRegion = '';    //change me
 var SpeechSDK;
 var recognizer;
 
