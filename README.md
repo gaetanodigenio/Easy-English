@@ -26,7 +26,7 @@ Progetto Corso Cloud Computing UNISA magistrale informatica (cloud computing)
 - Modificare le impostazioni firewall del SQL server in 'panoramica/impostazioni firewall del server' consentendo alle risorse e ai servizi di Azure di accedere a questo server (impostare SI)
 
 ## Azure app service
-- Creare una nuova risorsa [app service](https://docs.microsoft.com/it-it/azure/app-service/quickstart-nodejs?tabs=linux&pivots=development-environment-vscode), operazione facilitata usando vsCode
+- Creare una nuova risorsa [app service](https://docs.microsoft.com/it-it/azure/app-service/quickstart-nodejs?tabs=linux&pivots=development-environment-vscode), operazione facilitata usando vsCode. Installare l'estensione 'azure app service' in vscode e seguire il tutorial al link sopra.
 - Recarsi nel servizio app creato nel portale azure, andare in 'configurazione' ed aggiungere i seguenti parametri:
   1. PORT 80
   2. WEBSITES_PORT 80
