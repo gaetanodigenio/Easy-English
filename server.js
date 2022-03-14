@@ -9,14 +9,14 @@ const { Connection, Request } = require("tedious");
 const config = {
   authentication: {
     options: {
-      userName: "provadb", // update me
-      password: "Gaetano9" // update me
+      userName: "", // update me
+      password: "" // update me
     },
     type: "default"
   },
-  server: "dbprova-server.database.windows.net", // update me
+  server: "", // update me
   options: {
-    database: "dbprova", //update me
+    database: "", //update me
     encrypt: true
   }
 };
