@@ -11,7 +11,7 @@ Progetto Corso Cloud Computing UNISA magistrale informatica (cloud computing)
 # Configurazione
 
 ## Clone del progetto da github
-- Copiare link progetto, aprire terminale e digitare 'git clone <linkdelprogetto>'. 
+- Copiare link progetto, aprire terminale e digitare 'git clone linkdelprogetto'. 
 - Aprire la cartella del progetto in visual studio code
 
 
