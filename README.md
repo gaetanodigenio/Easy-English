@@ -1,6 +1,4 @@
 # EasyEnglish
-Progetto Corso Cloud Computing UNISA magistrale informatica (cloud computing)
-
 
 # Requisiti
 - [NodeJS](https://nodejs.org/it/download/)
